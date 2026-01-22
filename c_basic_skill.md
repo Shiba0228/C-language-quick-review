@@ -4,7 +4,7 @@
 適用對象：臨時抱佛腳的大學生，剛退伍的可撥仔。
 
 ---
-
+```c
 題目 1：基本輸出
 
 int a = 5;
@@ -19,6 +19,9 @@ ans: Undefined Behavior
 在同一個 expression中，a被多次修改，且沒有 sequence point（C11 之後稱為 unsequenced）
 
 題目 3：for 迴圈陷阱
+int i;
+for (i = 0; i < 3; i++);
+printf("%d\n", i);
 ans: 3
 說明:
 for 後面多了一個分號，形成空迴圈；i 會遞增到 3 才結束。
