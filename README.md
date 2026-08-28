@@ -151,6 +151,18 @@
 
 ## 四、Coding 題清單
 
+目前已完成的一題一檔 C++ 範例（全部放在專案根目錄）：
+
+- [reverse_string.cpp](./reverse_string.cpp)：反轉字串
+- [binary_search.cpp](./binary_search.cpp)：二分搜尋
+- [two_sum.cpp](./two_sum.cpp)：Two Sum
+- [valid_brackets.cpp](./valid_brackets.cpp)：括號配對
+- [reverse_linked_list.cpp](./reverse_linked_list.cpp)：反轉 linked list
+- [linked_list_cycle.cpp](./linked_list_cycle.cpp)：偵測 linked list cycle
+- [count_set_bits.cpp](./count_set_bits.cpp)：計算 set bits
+- [ring_buffer.cpp](./ring_buffer.cpp)：固定容量 circular buffer（C++17）
+- [lru_cache.cpp](./lru_cache.cpp)：LRU cache（C++17）
+
 ### 基礎字串與陣列
 
 1. 不用函式庫反轉字串，並處理空字串與 `NULL`。
